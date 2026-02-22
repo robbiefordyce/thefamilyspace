@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://gigantic-normal-seal-63cudo.teleporthq.app/sitemap.xml
