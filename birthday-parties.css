@@ -1,0 +1,505 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: #22205f;
+}
+ 
+.navigation-thq-navbar-interactive-elm {
+  width: 100%;
+  display: flex;
+  max-width: idth;
+  align-items: center;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-threeunits);
+  padding-right: var(--dl-layout-space-threeunits);
+  padding-bottom: var(--dl-layout-space-halfunit);
+  justify-content: space-between;
+}
+ 
+.navigation-navlink {
+  display: contents;
+}
+ 
+.navigation-thq-image1-elm {
+  height: 3rem;
+  text-decoration: none;
+}
+ 
+.navigation-thq-desktop-menu-elm {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.navigation-thq-link1-elm1 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-link2-elm1 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-link4-elm1 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-burger-menu-elm {
+  display: none;
+}
+ 
+.navigation-icon16 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.navigation-thq-mobile-menu-elm {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: var(--dl-layout-space-twounits);
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+ 
+.navigation-thq-nav-elm {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.navigation-thq-top-elm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-layout-space-threeunits);
+  justify-content: space-between;
+}
+ 
+.navigation-thq-logo-elm {
+  height: 3rem;
+}
+ 
+.navigation-thq-close-menu-elm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-icon18 {
+  width: var(--dl-layout-size-xsmall);
+  height: var(--dl-layout-size-xsmall);
+}
+ 
+.navigation-thq-links-elm2 {
+  gap: var(--dl-layout-space-unit);
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.navigation-thq-icon-group-elm2 {
+  gap: var(--dl-layout-space-twounits);
+  display: flex;
+}
+ 
+.birthday-parties-fragment10 {
+  display: contents;
+}
+ 
+.birthday-parties-text10 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment11 {
+  display: contents;
+}
+ 
+.birthday-parties-text11 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment12 {
+  display: contents;
+}
+ 
+.birthday-parties-text12 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment13 {
+  display: contents;
+}
+ 
+.birthday-parties-text13 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment14 {
+  display: contents;
+}
+ 
+.birthday-parties-text14 {
+  display: inline-block;
+}
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+@media(max-width: 1600px) {
+  .navigation-thq-link1-elm1 {
+    fill: var(--dl-color-theme-neutral-light);
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .navigationroot-class-name5 {
+    position: relative;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .navigation-thq-navbar-interactive-elm {
+    padding-left: var(--dl-layout-space-twounits);
+    padding-right: var(--dl-layout-space-twounits);
+  }
+  .navigation-thq-desktop-menu-elm {
+    display: none;
+  }
+  .navigation-thq-burger-menu-elm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .navigation-thq-navbar-interactive-elm {
+    padding: var(--dl-layout-space-unit);
+  }
+  .navigation-thq-mobile-menu-elm {
+    padding: var(--dl-layout-space-unit);
+  }
+}
+
+.birthday-parties-template-wrapper {
+  display: contents;
+}
+ 
+.birthday-parties-template-thq-blog-post-header3-elm {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+ 
+.birthday-parties-template-thq-max-width-elm1 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.birthday-parties-template-text10 {
+  align-self: center;
+  text-align: justify;
+}
+ 
+.birthday-parties-template-thq-content-elm2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.birthday-parties-template-thq-author-image1-elm {
+  width: var(--dl-layout-size-small);
+  height: var(--dl-layout-size-small);
+}
+ 
+.birthday-parties-template-thq-author-elm {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.birthday-parties-template-thq-max-width-elm2 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.birthday-parties-template-container1 {
+  gap: var(--dl-layout-space-twounits);
+  flex: 0 0 auto;
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.birthday-parties-template-thq-max-width-elm3 {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.birthday-parties-template-container2 {
+  width: 100%;
+}
+ 
+.birthday-parties-template-container3 {
+  gap: var(--dl-layout-space-unit);
+  flex: 1;
+  display: flex;
+  padding: var(--dl-layout-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.birthday-parties-template-text12 {
+  text-align: center;
+}
+ 
+.birthday-parties-template-container4 {
+  gap: var(--dl-layout-space-unit);
+  flex: 1;
+  display: flex;
+  padding: var(--dl-layout-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.birthday-parties-template-text14 {
+  text-align: justify;
+}
+ 
+.birthday-parties-fragment15 {
+  display: contents;
+}
+ 
+.birthday-parties-text15 {
+  display: inline-block;
+  text-align: center;
+}
+ 
+.birthday-parties-fragment16 {
+  display: contents;
+}
+ 
+.birthday-parties-text16 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment17 {
+  display: contents;
+}
+ 
+.birthday-parties-text21 {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 700;
+}
+ 
+.birthday-parties-fragment18 {
+  display: contents;
+}
+ 
+.birthday-parties-text22 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment19 {
+  display: contents;
+}
+ 
+.birthday-parties-text23 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment20 {
+  display: contents;
+}
+ 
+.birthday-parties-text24 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment21 {
+  display: contents;
+}
+ 
+.birthday-parties-text25 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 767px) {
+  .birthday-parties-template-thq-max-width-elm2 {
+    flex-direction: column;
+  }
+  .birthday-parties-template-thq-max-width-elm3 {
+    flex-direction: column;
+  }
+  .birthday-parties-template-container3 {
+    align-self: flex-start;
+  }
+  .birthday-parties-template-text11 {
+    align-self: center;
+  }
+  .birthday-parties-template-container4 {
+    align-self: flex-start;
+  }
+  .birthday-parties-template-text13 {
+    align-self: center;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .birthday-parties-template-thq-text-elm1 {
+    text-align: center;
+  }
+}
+
+.birthday-parties-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.birthday-parties-fragment10 {
+  display: contents;
+}
+ 
+.birthday-parties-text10 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment11 {
+  display: contents;
+}
+ 
+.birthday-parties-text11 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment12 {
+  display: contents;
+}
+ 
+.birthday-parties-text12 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment13 {
+  display: contents;
+}
+ 
+.birthday-parties-text13 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment14 {
+  display: contents;
+}
+ 
+.birthday-parties-text14 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment15 {
+  display: contents;
+}
+ 
+.birthday-parties-text15 {
+  display: inline-block;
+  text-align: center;
+}
+ 
+.birthday-parties-fragment16 {
+  display: contents;
+}
+ 
+.birthday-parties-text16 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment17 {
+  display: contents;
+}
+ 
+.birthday-parties-text21 {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 700;
+}
+ 
+.birthday-parties-fragment18 {
+  display: contents;
+}
+ 
+.birthday-parties-text22 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment19 {
+  display: contents;
+}
+ 
+.birthday-parties-text23 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment20 {
+  display: contents;
+}
+ 
+.birthday-parties-text24 {
+  display: inline-block;
+}
+ 
+.birthday-parties-fragment21 {
+  display: contents;
+}
+ 
+.birthday-parties-text25 {
+  display: inline-block;
+}

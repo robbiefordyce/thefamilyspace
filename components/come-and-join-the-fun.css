@@ -1,0 +1,110 @@
+.come-and-join-the-fun-thq-header19-elm {
+  display: flex;
+  justify-content: center;
+}
+ 
+.come-and-join-the-fun-thq-max-width-elm {
+  align-self: center;
+  align-items: flex-start;
+}
+ 
+.come-and-join-the-fun-video {
+  width: 743px;
+  height: 431px;
+}
+ 
+.come-and-join-the-fun-thq-column-elm {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.come-and-join-the-fun-thq-content-elm {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.come-and-join-the-fun-thq-text-elm1 {
+  text-align: left;
+}
+ 
+.come-and-join-the-fun-thq-text-elm2 {
+  text-align: left;
+}
+ 
+.come-and-join-the-fun-thq-actions-elm {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.come-and-join-the-fun-fragment1 {
+  display: contents;
+}
+ 
+.come-and-join-the-fun-text10 {
+  display: inline-block;
+}
+ 
+.come-and-join-the-fun-fragment2 {
+  display: contents;
+}
+ 
+.come-and-join-the-fun-text11 {
+  display: inline-block;
+}
+ 
+.come-and-join-the-fun-fragment3 {
+  display: contents;
+}
+ 
+.come-and-join-the-fun-text12 {
+  display: inline-block;
+}
+ 
+.come-and-join-the-fun-fragment4 {
+  display: contents;
+}
+ 
+.come-and-join-the-fun-text20 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .come-and-join-the-fun-thq-max-width-elm {
+    flex-direction: column;
+  }
+  .come-and-join-the-fun-video {
+    width: 100%;
+  }
+  .come-and-join-the-fun-thq-text-elm1 {
+    text-align: center;
+  }
+  .come-and-join-the-fun-thq-text-elm2 {
+    text-align: center;
+  }
+  .come-and-join-the-fun-thq-actions-elm {
+    align-self: center;
+    justify-content: flex-start;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .come-and-join-the-fun-thq-actions-elm {
+    width: 100%;
+    flex-direction: column;
+  }
+  .come-and-join-the-fun-thq-button-elm1 {
+    width: 100%;
+  }
+  .come-and-join-the-fun-thq-button-elm2 {
+    width: 100%;
+  }
+}
