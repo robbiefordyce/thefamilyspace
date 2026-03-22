@@ -5,9 +5,13 @@
 .navigation-container {
   width: 100%;
   display: flex;
-  position: relative;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
   justify-content: center;
   background-color: #22205f;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
 }
  
 .navigation-thq-navbar-interactive-elm {
@@ -238,134 +242,61 @@
 }
  
 .our-values-thq-list-elm1 {
-  width: 1308px;
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  box-sizing: border-box;
 }
  
-.our-values-thq-list-item1-elm {
+[class^="our-values-thq-list-item"] {
   gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: stretch;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease;
+  justify-content: flex-start;
 }
- 
-.our-values-icon10 {
-  width: var(--dl-layout-size-small);
-  height: var(--dl-layout-size-small);
+
+[class^="our-values-thq-list-item"]:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.15);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+[class^="our-values-icon"] {
+  width: 48px;
+  height: 48px;
   align-self: center;
+  margin-bottom: 1rem;
+  fill: var(--dl-color-theme-primary1);
 }
- 
-.our-values-thq-faq1-question-elm1 {
+
+[class*="question-elm"] {
   align-self: center;
   font-style: normal;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--dl-color-theme-primary1);
 }
- 
-.our-values-thq-faq1-answer-elm1 {
-  text-align: left;
+
+[class*="answer-elm"] {
+  text-align: center !important;
+  color: var(--dl-color-theme-neutral-dark);
+  line-height: 1.6;
 }
- 
-.our-values-thq-list-item2-elm {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.our-values-icon12 {
-  width: var(--dl-layout-size-small);
-  height: var(--dl-layout-size-small);
-  align-self: center;
-}
- 
-.our-values-thq-faq2-question-elm1 {
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-weight: 600;
-}
- 
-.our-values-thq-faq2-answer-elm1 {
-  text-align: left;
-}
- 
-.our-values-thq-list-item3-elm {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.our-values-icon14 {
-  width: var(--dl-layout-size-small);
-  height: var(--dl-layout-size-small);
-  align-self: center;
-}
- 
-.our-values-thq-faq3-question-elm {
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-weight: 600;
-}
- 
-.our-values-thq-faq3-answer-elm {
-  text-align: left;
-}
- 
-.our-values-thq-list-item4-elm {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.our-values-icon16 {
-  width: var(--dl-layout-size-small);
-  height: var(--dl-layout-size-small);
-  align-self: center;
-}
- 
-.our-values-thq-faq1-question-elm2 {
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-weight: 600;
-}
- 
-.our-values-thq-faq1-answer-elm2 {
-  text-align: right;
-}
- 
-.our-values-thq-list-item5-elm {
-  gap: var(--dl-layout-space-unit);
-  display: flex;
-  align-self: stretch;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.our-values-icon18 {
-  width: var(--dl-layout-size-small);
-  height: var(--dl-layout-size-small);
-  align-self: center;
-}
- 
-.our-values-thq-faq2-question-elm2 {
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-weight: 600;
-}
- 
-.our-values-thq-faq2-answer-elm2 {
-  text-align: right;
-}
- 
 .about-fragment24 {
   display: contents;
 }
@@ -525,6 +456,7 @@
 .our-venue-thq-container-elm1 {
   align-self: stretch;
   align-items: center;
+  justify-content: center;
 }
  
 .our-venue-thq-column-elm {
@@ -537,10 +469,10 @@
 .our-venue-thq-container-elm2 {
   gap: var(--dl-layout-space-unit);
   flex: 1;
-  width: auto;
+  width: 100%;
   display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
+  align-self: center;
+  align-items: center;
   flex-direction: column;
 }
  
@@ -559,7 +491,8 @@
 }
  
 .our-venue-button {
-  width: 100%;
+  width: auto;
+  min-width: 200px;
 }
  
 .about-fragment27 {
@@ -664,6 +597,38 @@
  
 .about-text11 {
   display: inline-block;
+}
+
+.modern-badge {
+  display: inline-block;
+  padding: 0.25rem 1.25rem;
+  background-color: rgba(35, 41, 127, 0.1); 
+  color: var(--dl-color-theme-primary1);
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.modern-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--dl-color-theme-primary1);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.modern-subtitle {
+  font-size: 1.25rem;
+  color: #4B5563;
+  max-width: 650px;
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 auto;
 }
  
 .about-fragment12 {

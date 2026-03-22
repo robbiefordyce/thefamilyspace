@@ -338,18 +338,19 @@
 }
  
 .our-sponsors-thq-max-width-elm {
-  gap: var(--dl-layout-space-oneandhalfunits);
+  gap: var(--dl-layout-space-twounits);
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
  
 .our-sponsors-container2 {
   gap: var(--dl-layout-space-oneandhalfunits);
   flex: 0 0 auto;
-  width: 50%;
+  width: 100%;
+  max-width: 800px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
  
@@ -366,10 +367,11 @@
  
 .our-sponsors-container3 {
   gap: var(--dl-layout-space-twounits);
-  width: 50%;
-  padding: var(--dl-layout-space-fourunits);
+  width: 100%;
+  max-width: 1000px;
+  padding: var(--dl-layout-space-twounits);
   border-radius: var(--dl-layout-radius-radius8);
-  background-color: var(--dl-color-theme-primary1);
+  background-color: transparent;
 }
  
 .our-sponsors-thq-logo1-elm {
@@ -532,7 +534,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--dl-color-theme-primary1);
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
@@ -757,7 +758,7 @@
 }
  
 .donations-container13 {
-  flex: 0 0 auto;
+  flex: 1; width: 50%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -768,7 +769,7 @@
 }
  
 .donations-container14 {
-  flex: 0 0 auto;
+  flex: 1; width: 50%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -791,12 +792,13 @@
   gap: var(--dl-layout-space-fourunits);
   flex: 0 0 auto;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
  
 .donations-container16 {
-  flex: 0 0 auto;
+  flex: 1; width: 50%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -807,7 +809,7 @@
 }
  
 .donations-container17 {
-  flex: 0 0 auto;
+  flex: 1; width: 50%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -830,12 +832,13 @@
   gap: var(--dl-layout-space-fourunits);
   flex: 0 0 auto;
   display: flex;
-  align-items: stretch;
-  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
  
 .donations-container19 {
-  flex: 0 0 auto;
+  flex: 1; width: 50%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -846,7 +849,7 @@
 }
  
 .donations-container20 {
-  flex: 0 0 auto;
+  flex: 1; width: 50%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -1682,5 +1685,97 @@
 @media(max-width: 1200px) {
   .support-container {
     background-color: var(--dl-color-theme-neutral-dark);
+  }
+}
+
+
+/* Modern Typography */
+.modern-badge {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  background-color: var(--dl-color-theme-accent1);
+  color: var(--dl-color-theme-primary1);
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+.modern-heading {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--dl-color-theme-neutral-dark);
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+.modern-subtitle {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  opacity: 0.8;
+  color: var(--dl-color-theme-neutral-dark);
+}
+
+/* Modern Sponsor Cards */
+.modern-sponsor-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(34, 32, 95, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  min-height: 120px;
+  text-decoration: none;
+}
+.modern-sponsor-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.15);
+  background: rgba(34, 32, 95, 0.8);
+}
+.modern-sponsor-card img {
+  max-height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Modern Donation Cards */
+.modern-donation-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 2.5rem;
+  box-shadow: 0 12px 48px 0 rgba(31, 38, 135, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  transition: all 0.3s ease;
+  width: 100%;
+}
+.modern-donation-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 60px 0 rgba(31, 38, 135, 0.1);
+}
+
+@media(max-width: 767px) {
+  .donations-container12, .donations-container15, .donations-container18 {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: var(--dl-layout-space-oneandhalfunits) !important;
+  }
+  .donations-container13, .donations-container14, .donations-container16, .donations-container17, .donations-container19, .donations-container20 {
+    width: 100% !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+  .modern-heading {
+    font-size: 2.2rem !important;
+  }
+  .our-sponsors-container3 {
+    grid-template-columns: 1fr !important;
   }
 }

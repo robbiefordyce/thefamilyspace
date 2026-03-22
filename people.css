@@ -1132,3 +1132,52 @@
 .people-text43 {
   display: inline-block;
 }
+
+[class^="our-people-thq-card-elm"] {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease;
+}
+
+[class^="our-people-thq-card-elm"]:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.15);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.modern-badge {
+  display: inline-block;
+  padding: 0.25rem 1.25rem;
+  background-color: rgba(35, 41, 127, 0.1); 
+  color: var(--dl-color-theme-primary1);
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.modern-heading {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--dl-color-theme-primary1);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.modern-subtitle {
+  font-size: 1.25rem;
+  color: #4B5563;
+  max-width: 650px;
+  text-align: center;
+  line-height: 1.6;
+  margin: 0 auto;
+}
