@@ -1,6 +1,8 @@
 # The Family Space
 
-Welcome to the official repository for **The Family Space** — a clean, modern, and mobile-responsive website for our community childcare and family gathering center.
+Welcome to the official repository for **The Family Space** — a clean, modern, and mobile-responsive static website for our community childcare and family gathering center.
+
+**The Family Space** is a community initiative run out of **Gateway Baptist Church** in Miramar, Wellington, New Zealand.
 
 ## 🚀 Overview
 
@@ -8,16 +10,19 @@ This repository contains the pure HTML and CSS source code for the website. It h
 
 ## ✨ Features
 
-- **Zero-Dependency Architecture:** Written entirely in semantic HTML5 and vanilla CSS3. No `package.json`, no `node_modules`, no messy build scripts.
-- **Glassmorphism UI:** Features premium translucent layout cards, dynamic hover states, and smooth transitions.
+- **Zero-Dependency Architecture:** Built entirely in semantic HTML5 and vanilla CSS3. No complex frameworks, `package.json`, or background build scripts.
+- **Glassmorphism UI:** Features premium translucent layout cards, dynamic hover states, and smooth styling overlays.
 - **Responsive Layout:** Fully optimized for seamless viewing across desktop, tablet, and mobile devices using CSS Grid and Flexbox layouts.
-- **Modern Typography:** Styled with the *Bricolage Grotesque* and *Google Sans* font families for high legibility and a contemporary editorial aesthetic.
 
-## 🌐 Deployment
+## 🌐 Deployment & Domains
 
-This project is built specifically to leverage **Vercel's zero-configuration static deployment**. 
+Because this codebase is radically optimized as pure vanilla HTML and CSS, it leverages **Vercel's zero-configuration static edge network** for lightning-fast deployments. Any time a commit is pushed to the `main` branch, Vercel will automatically serve the raw repository live to the internet.
 
-Because this codebase is radically optimized with absolutely no build steps or configuration files, Vercel will instantly detect the native HTML files and automatically serve the repository live to the internet in under 10 seconds. Any time a commit is pushed to the `main` branch, Vercel will seamlessly redeploy it.
+- **Domain:** The custom domain `www.thefamilyspace.org.nz` is registered and managed through **[MyHost](https://myhost.co.nz/)**.
+
+## 🤝 Contact & Updates
+
+If you are an interested party looking to propose changes, provide feedback, or push updates to the website codebase, please reach out to my GitHub profile directly or open an Issue/Pull Request on this repository.
 
 ## 📁 Directory Structure
 
