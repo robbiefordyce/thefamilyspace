@@ -54,6 +54,7 @@
 }
  
 .navigation-icon16 {
+  fill: #ffffff;
   width: var(--dl-layout-size-xsmall);
   height: var(--dl-layout-size-xsmall);
 }
