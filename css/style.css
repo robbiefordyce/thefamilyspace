@@ -764,5 +764,5 @@
 
 /* Global Mobile Menu Gradient Sync */
 .navigation-thq-mobile-menu-elm {
-  background: radial-gradient(circle at 50% 40%, #302d85 0%, #22205f 60%, #15133a 100%) !important;
+  background: rgba(34, 32, 95, 0.95) !important;
 }
