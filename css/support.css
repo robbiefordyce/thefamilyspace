@@ -1777,3 +1777,12 @@
     grid-template-columns: 1fr !important;
   }
 }
+
+#tab-session {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+#tab-term {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
