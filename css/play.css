@@ -724,3 +724,31 @@
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 767px) {
+  .modern-play-card {
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .modern-play-card .thq-heading-2 {
+    order: 1;
+    margin-bottom: 0.5rem !important;
+  }
+  .modern-play-card .card-bg-icon {
+    position: static !important;
+    order: 2;
+    opacity: 1 !important;
+    color: var(--dl-color-theme-primary1) !important;
+    width: 4rem !important;
+    height: 4rem !important;
+    margin: 1.5rem 0 !important;
+  }
+  .modern-play-card .thq-body-small {
+    order: 3;
+    max-width: 100% !important;
+    text-align: center !important;
+  }
+  .playgroups-text11, .playgroups-text14, .playgroups-text17 {
+    text-align: center !important;
+  }
+}
