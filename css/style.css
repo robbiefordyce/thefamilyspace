@@ -761,3 +761,8 @@
     padding: 80px var(--dl-layout-space-unit) !important;
   }
 }
+
+/* Global Mobile Menu Gradient Sync */
+.navigation-thq-mobile-menu-elm {
+  background: radial-gradient(circle at 50% 40%, #302d85 0%, #22205f 60%, #15133a 100%) !important;
+}
