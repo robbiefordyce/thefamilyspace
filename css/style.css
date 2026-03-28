@@ -766,3 +766,13 @@
 .navigation-thq-mobile-menu-elm {
   background: #22205f !important;
 }
+
+/* Center Mobile Navigation Links */
+@media(max-width: 767px) {
+  .navigation-thq-links-elm2 {
+    align-self: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+}
