@@ -283,7 +283,7 @@
   object-fit: contain;
   margin-top: 4rem;
   animation: slideUpFadeIn 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
-  filter: drop-shadow(0 20px 30px rgba(0,0,0,0.3));
+  /* filter removed to prevent iOS bounding-box artifacts */
 }
  
 @media(max-width: 1600px) {
