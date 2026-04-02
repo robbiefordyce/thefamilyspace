@@ -544,12 +544,6 @@
   display: inline-block;
 }
  
-@media(max-width: 1600px) {
-  .about-text42 {
-    font-style: italic;
-    font-weight: 700;
-  }
-}
  
 @media(max-width: 991px) {
   .our-venue-thq-container-elm1 {
